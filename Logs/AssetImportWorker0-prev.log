@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+Built from '2022.2/release' branch; Version is '2022.2.1f1 (4fead5835099) revision 5237461'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'es' Physical Memory: 16323 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.2.1f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ C:/Users/54113/Desktop/Environment/MoIT
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50445
+53682
 Successfully changed project path to: C:/Users/54113/Desktop/Environment/MoIT
 C:/Users/54113/Desktop/Environment/MoIT
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,10 +47,14 @@ C:/Users/54113/Desktop/Environment/MoIT
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 80.98 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.92 ms.
-Initialize engine version: 2021.3.9f1 (ad3870b89536)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+Player connection [14032] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 4041410695 [EditorId] 4041410695 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5KU3OGQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14032] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 4041410695 [EditorId] 4041410695 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5KU3OGQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 36.70 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 2.24 ms.
+Initialize engine version: 2022.2.1f1 (4fead5835099)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/54113/Desktop/Environment/MoIT/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
@@ -61,164 +65,61 @@ Direct3D:
     Driver:   27.21.14.5751
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013659 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.025214 seconds.
+- Loaded All Assemblies, in  0.861 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 62.17 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Android Extension - Scanning For ADB Devices 514 ms
 Mono: successfully reloaded assembly
-- Completed reload, in  0.978 seconds
+- Finished resetting the current domain, in  1.228 seconds
 Domain Reload Profiling:
-	ReloadAssembly (978ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (557ms)
+		BeginReloadAssembly (218ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (694ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (8ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (203ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
+			SetupTypeCache (288ms)
+				TypeCache.Initialize (286ms)
+					TypeCache.ScanAssembly (284ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (377ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1085ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (100ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
-				AfterProcessingInitializeOnLoad (0ms)
+				InitializePlatformSupportModulesInManaged (667ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.018665 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 62.42 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.174 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2175ms)
-		BeginReloadAssembly (380ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (138ms)
-		EndReloadAssembly (1662ms)
-			LoadAssemblies (227ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (308ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (1095ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (846ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.09 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Unloading 2612 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (66.1 KB). Loaded Objects now: 3330.
-Memory consumption went from 118.6 MB to 118.6 MB.
-Total: 3.118200 ms (FindLiveObjects: 0.253800 ms CreateObjectMapping: 0.175400 ms MarkObjects: 2.592600 ms  DeleteObjects: 0.095100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 45261.476115 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(2caed8049f02b1a4ebd0b271da0366e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(2caed8049f02b1a4ebd0b271da0366e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c8cae3f8ac8de34164f662dcc8b721') in 0.013045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Scenes/Escaner.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Escaner.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d50f89860113147ab3491a0d5450cd') in 0.012231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Scenes/PantallaPrincipal.unity
-  artifactKey: Guid(39c7b0a71eb919643b7eefbe59bd6f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PantallaPrincipal.unity using Guid(39c7b0a71eb919643b7eefbe59bd6f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25db94184a6d9775fc6767c2ff21bd50') in 0.012106 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015925 seconds.
 Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.486 seconds
+Refreshing native plugins compatible for Editor in 15.58 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
@@ -234,6 +135,7 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
@@ -249,49 +151,489 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.935 seconds
+- Finished resetting the current domain, in  1.654 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2936ms)
-		BeginReloadAssembly (655ms)
+	ReloadAssembly (572ms)
+		BeginReloadAssembly (321ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (66ms)
+		LoadAllAssembliesAndSetupDomain (905ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (841ms)
+				TypeCache.Initialize (534ms)
+					TypeCache.ScanAssembly (525ms)
+				ResolveRequiredComponents (10ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (77ms)
+				SetLoadedEditorAssemblies (14ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (282ms)
+				ProcessInitializeOnLoadAttributes (889ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 11.21 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 2793 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (92.3 KB). Loaded Objects now: 3310.
+Memory consumption went from 446.9 MB to 446.8 MB.
+Total: 5.223700 ms (FindLiveObjects: 0.286300 ms CreateObjectMapping: 0.282200 ms MarkObjects: 4.522100 ms  DeleteObjects: 0.132100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46206.386019 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El nacimiento de la Virgen María.jpg
+  artifactKey: Guid(b6ddff51ce3d7a840b77846987f93fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El nacimiento de la Virgen María.jpg using Guid(b6ddff51ce3d7a840b77846987f93fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edcfc8249068ae732552c6128352300') in 0.466035 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Obras
+  artifactKey: Guid(040f71f30560bec4bbe2806010e07410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras using Guid(040f71f30560bec4bbe2806010e07410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4011b2011b4122916bfe9e1ba2117375') in 0.019760 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Adoración de los Magos.jpg
+  artifactKey: Guid(2e17c3a690bd37e488af314f82a361e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Adoración de los Magos.jpg using Guid(2e17c3a690bd37e488af314f82a361e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6512e0c4df3e452a1b79aa46925fa19') in 0.052153 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Apoteosis de Judith.jpg
+  artifactKey: Guid(78bf4ba8c5d2ee943aa28ad2a33cb245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Apoteosis de Judith.jpg using Guid(78bf4ba8c5d2ee943aa28ad2a33cb245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559ab700b32855518176299c19d93486') in 0.075433 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Ferias italianas.jpg
+  artifactKey: Guid(7c009b3fcb93f7d43b5f1b1387510def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Ferias italianas.jpg using Guid(7c009b3fcb93f7d43b5f1b1387510def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbc098b32630a2c19a2c3a556e41d92') in 0.140675 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El matrimonio místico de Santa Catalina.jpg
+  artifactKey: Guid(513df3717d0349e48b59fb8c0376af60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El matrimonio místico de Santa Catalina.jpg using Guid(513df3717d0349e48b59fb8c0376af60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb175d9aba311ea0f169488551223dc') in 0.052933 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010096 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Aurora y Thyton.jpg
+  artifactKey: Guid(64b069ffdc327bf40bf1714961ddbb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Aurora y Thyton.jpg using Guid(64b069ffdc327bf40bf1714961ddbb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7eacd96543158d9e3da0d225d6f843b') in 0.240251 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004064 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El capitán a caballo.jpg
+  artifactKey: Guid(7e1be7b224a41ec43bb2ae97177bdd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El capitán a caballo.jpg using Guid(7e1be7b224a41ec43bb2ae97177bdd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaf9984ea792f2ac25643c6d0f01f60') in 0.651777 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII
+  artifactKey: Guid(e4424c622b84b1b43ae06efa6f9ac020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII using Guid(e4424c622b84b1b43ae06efa6f9ac020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7089ff0c2973e1963a6f6c37aaab46a') in 0.021669 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Diana y sus Ninfas de caza.jpg
+  artifactKey: Guid(ed6e050ade13160468f4de166763deba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Diana y sus Ninfas de caza.jpg using Guid(ed6e050ade13160468f4de166763deba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e799dbe84ef4f6caef432e8b9a05a16') in 0.041916 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Alegoría de la Fortuna y la Virtud.jpg
+  artifactKey: Guid(50adf4826325c1c4085f9ed5df486f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Alegoría de la Fortuna y la Virtud.jpg using Guid(50adf4826325c1c4085f9ed5df486f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35245dc6e26cad43befe74bd789fdf0b') in 0.037338 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/BotonMenu.prefab
+  artifactKey: Guid(2a219f4f986363e468cf0576f74d1b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/BotonMenu.prefab using Guid(2a219f4f986363e468cf0576f74d1b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af61e711e527a299290b66cf4e54d17d') in 0.098099 seconds 
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Descanso en la huida a Egipto.jpg
+  artifactKey: Guid(ea2980748198dcf408190b7ac681aa7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Descanso en la huida a Egipto.jpg using Guid(ea2980748198dcf408190b7ac681aa7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386ebde590dab8601e1c81800a3ec50f') in 0.123021 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(aae6496ffa3de8b49a2587eebdb8781a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(aae6496ffa3de8b49a2587eebdb8781a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Fixing reference to the runtime script in scene file!
+ -> (artifact id: 'f2fd8932f8a8410bfe0e25f616cb6bc7') in 0.021158 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El Rapto de la Sabinas.jpg
+  artifactKey: Guid(a602ae0bff99b034d80ac75c6c440d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El Rapto de la Sabinas.jpg using Guid(a602ae0bff99b034d80ac75c6c440d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4b43004e30ca46ade8ac3bb75f6601') in 0.051040 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Charlotte de Hesse-Rheinfels.jpg
+  artifactKey: Guid(da5018dead2e65543995f95a609a8a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Charlotte de Hesse-Rheinfels.jpg using Guid(da5018dead2e65543995f95a609a8a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2778c78ea59d129d604edb8790c32b0') in 0.026363 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Baño de Ninfas (Las ninfas de Diana regresando de la pesca).jpg
+  artifactKey: Guid(6aa7e130f8d964c408a42908d7466d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Baño de Ninfas (Las ninfas de Diana regresando de la pesca).jpg using Guid(6aa7e130f8d964c408a42908d7466d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a45cb3c2aad42ab95ecc8f2fd4d1c98') in 0.027978 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Armario holandés.jpg
+  artifactKey: Guid(fce0d953c209b744c875d608bf73a558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Armario holandés.jpg using Guid(fce0d953c209b744c875d608bf73a558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55ff2b1c7e70afb64087e4de05825ef') in 0.035883 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El buen Samaritano.jpg
+  artifactKey: Guid(e61f42f3b4afbe842b3df8d97a4ba535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El buen Samaritano.jpg using Guid(e61f42f3b4afbe842b3df8d97a4ba535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec0ce772ed74581ff63ec9960ca063e') in 0.030389 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Cristo en la Cruz.jpg
+  artifactKey: Guid(7d0acb0ef1b38d145b9a070bc8b3ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Cristo en la Cruz.jpg using Guid(7d0acb0ef1b38d145b9a070bc8b3ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259ff676cc1418595b9e1488836e44ee') in 0.030245 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Ester y Mardoqueo escribiendo la primera carta del Purim (Ester, 9-20-21).jpg
+  artifactKey: Guid(8fd75da7fe8a2b5498f5d01bb67783a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Ester y Mardoqueo escribiendo la primera carta del Purim (Ester, 9-20-21).jpg using Guid(8fd75da7fe8a2b5498f5d01bb67783a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728f54c52f98072134c027fc1731cf87') in 0.075742 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Bodas místicas de Santa Catalina.jpg
+  artifactKey: Guid(d820bb9990faedd46a47294fc7c86dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Bodas místicas de Santa Catalina.jpg using Guid(d820bb9990faedd46a47294fc7c86dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308aecd8b2ea785d78cab7d4065dfb86') in 0.028116 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Dios Pan.jpg
+  artifactKey: Guid(0fd00d8d978b6464ca192f57985c0d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Dios Pan.jpg using Guid(0fd00d8d978b6464ca192f57985c0d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c71505ee0f98e77b08571defbaa3a04') in 0.034335 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Coronación de la Virgen.jpg
+  artifactKey: Guid(e7ff99cedee2c2547b2264ef772fcc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Coronación de la Virgen.jpg using Guid(e7ff99cedee2c2547b2264ef772fcc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f414177bfa874bb9b8f2fe9e51792162') in 0.031483 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Data_AR.prefab
+  artifactKey: Guid(7b45d4204cce2cc42908912410d91128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Data_AR.prefab using Guid(7b45d4204cce2cc42908912410d91128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b8700656460588a42e2744af057be2') in 0.365944 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Cupido.jpg
+  artifactKey: Guid(4a5e55989750b2a40a537545be68c787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Cupido.jpg using Guid(4a5e55989750b2a40a537545be68c787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc342c41b53d5f93ac7cb0c12814b513') in 0.076039 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Fuga in Egitto (La huída a Egipto).jpg
+  artifactKey: Guid(49a08ea67fa6cd14eb7987464601b9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Fuga in Egitto (La huída a Egipto).jpg using Guid(49a08ea67fa6cd14eb7987464601b9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7c975c67cf0cad53c23af59425f48a') in 0.077864 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El naufragio.jpg
+  artifactKey: Guid(6cf1b389bb89b324783924f881a41887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El naufragio.jpg using Guid(6cf1b389bb89b324783924f881a41887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf6bf0ecc1ae5398b31d0bcc861f84b') in 0.025591 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El triunfo de Baco.jpg
+  artifactKey: Guid(a7e4364f4e8d2274199868bc3b7e4715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El triunfo de Baco.jpg using Guid(a7e4364f4e8d2274199868bc3b7e4715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ce6426dc2ab358e98f8448db5c111e') in 0.028381 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Crucifixión de Cristo.jpg
+  artifactKey: Guid(858cac3da9004eb469af42208cf868e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Crucifixión de Cristo.jpg using Guid(858cac3da9004eb469af42208cf868e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c8fd52fd1e76ea4dee81a04eb19912') in 0.041060 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+- Loaded All Assemblies, in  2.339 seconds
+Refreshing native plugins compatible for Editor in 30.90 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.801 seconds
+Domain Reload Profiling:
+	ReloadAssembly (575ms)
+		BeginReloadAssembly (218ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (125ms)
-		EndReloadAssembly (1853ms)
-			LoadAssemblies (540ms)
+			CreateAndSetChildDomain (65ms)
+		LoadAllAssembliesAndSetupDomain (1738ms)
+			LoadAssemblies (223ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (436ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (1108ms)
+			SetupTypeCache (1597ms)
+				TypeCache.Initialize (1134ms)
+					TypeCache.ScanAssembly (1113ms)
+				ResolveRequiredComponents (7ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (2147ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (158ms)
-				ProcessInitializeOnLoadAttributes (860ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (1873ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (44ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
+			AwakeInstancesAfterBackupRestoration (23ms)
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 8.03 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2577 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (35.0 KB). Loaded Objects now: 3332.
-Memory consumption went from 115.6 MB to 115.6 MB.
-Total: 3.823600 ms (FindLiveObjects: 0.213500 ms CreateObjectMapping: 0.111400 ms MarkObjects: 3.449500 ms  DeleteObjects: 0.048200 ms)
+Refreshing native plugins compatible for Editor in 23.33 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2758 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (59.2 KB). Loaded Objects now: 3362.
+Memory consumption went from 443.4 MB to 443.4 MB.
+Total: 10.382500 ms (FindLiveObjects: 0.454700 ms CreateObjectMapping: 0.371400 ms MarkObjects: 9.407300 ms  DeleteObjects: 0.147900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.090 seconds
+Refreshing native plugins compatible for Editor in 21.52 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.825 seconds
+Domain Reload Profiling:
+	ReloadAssembly (375ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		LoadAllAssembliesAndSetupDomain (1661ms)
+			LoadAssemblies (219ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1536ms)
+				TypeCache.Initialize (1283ms)
+					TypeCache.ScanAssembly (1277ms)
+				ResolveRequiredComponents (6ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1177ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (902ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 13.76 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2759 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (66.6 KB). Loaded Objects now: 3365.
+Memory consumption went from 443.7 MB to 443.6 MB.
+Total: 5.457600 ms (FindLiveObjects: 0.220700 ms CreateObjectMapping: 0.183400 ms MarkObjects: 4.976000 ms  DeleteObjects: 0.076000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 

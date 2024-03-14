@@ -1,0 +1,930 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Common.meta
+    - Assets/Common/Icons.meta
+    - Assets/Common/Icons/Android.meta
+    - Assets/Common/Icons/Android/Icon-144.png
+    - Assets/Common/Icons/Android/Icon-144.png.meta
+    - Assets/Common/Icons/Android/Icon-192.png
+    - Assets/Common/Icons/Android/Icon-192.png.meta
+    - Assets/Common/Icons/Android/Icon-36.png
+    - Assets/Common/Icons/Android/Icon-36.png.meta
+    - Assets/Common/Icons/Android/Icon-48.png
+    - Assets/Common/Icons/Android/Icon-48.png.meta
+    - Assets/Common/Icons/Android/Icon-512.png
+    - Assets/Common/Icons/Android/Icon-512.png.meta
+    - Assets/Common/Icons/Android/Icon-72.png
+    - Assets/Common/Icons/Android/Icon-72.png.meta
+    - Assets/Common/Icons/Android/Icon-96.png
+    - Assets/Common/Icons/Android/Icon-96.png.meta
+    - Assets/Common/Icons/UWP.meta
+    - Assets/Common/Icons/UWP/LargeTile.scale-100.png
+    - Assets/Common/Icons/UWP/LargeTile.scale-100.png.meta
+    - Assets/Common/Icons/UWP/LargeTile.scale-125.png
+    - Assets/Common/Icons/UWP/LargeTile.scale-125.png.meta
+    - Assets/Common/Icons/UWP/LargeTile.scale-150.png
+    - Assets/Common/Icons/UWP/LargeTile.scale-150.png.meta
+    - Assets/Common/Icons/UWP/LargeTile.scale-200.png
+    - Assets/Common/Icons/UWP/LargeTile.scale-200.png.meta
+    - Assets/Common/Icons/UWP/LargeTile.scale-400.png
+    - Assets/Common/Icons/UWP/LargeTile.scale-400.png.meta
+    - Assets/Common/Icons/UWP/SmallTile.scale-100.png
+    - Assets/Common/Icons/UWP/SmallTile.scale-100.png.meta
+    - Assets/Common/Icons/UWP/SmallTile.scale-125.png
+    - Assets/Common/Icons/UWP/SmallTile.scale-125.png.meta
+    - Assets/Common/Icons/UWP/SmallTile.scale-150.png
+    - Assets/Common/Icons/UWP/SmallTile.scale-150.png.meta
+    - Assets/Common/Icons/UWP/SmallTile.scale-200.png
+    - Assets/Common/Icons/UWP/SmallTile.scale-200.png.meta
+    - Assets/Common/Icons/UWP/SmallTile.scale-400.png
+    - Assets/Common/Icons/UWP/SmallTile.scale-400.png.meta
+    - Assets/Common/Icons/UWP/SplashScreen.scale-100.png
+    - Assets/Common/Icons/UWP/SplashScreen.scale-100.png.meta
+    - Assets/Common/Icons/UWP/SplashScreen.scale-125.png
+    - Assets/Common/Icons/UWP/SplashScreen.scale-125.png.meta
+    - Assets/Common/Icons/UWP/SplashScreen.scale-150.png
+    - Assets/Common/Icons/UWP/SplashScreen.scale-150.png.meta
+    - Assets/Common/Icons/UWP/SplashScreen.scale-200.png
+    - Assets/Common/Icons/UWP/SplashScreen.scale-200.png.meta
+    - Assets/Common/Icons/UWP/Square150x150Logo.scale-100.png
+    - Assets/Common/Icons/UWP/Square150x150Logo.scale-100.png.meta
+    - Assets/Common/Icons/UWP/Square150x150Logo.scale-125.png
+    - Assets/Common/Icons/UWP/Square150x150Logo.scale-125.png.meta
+    - Assets/Common/Icons/UWP/Square150x150Logo.scale-150.png
+    - Assets/Common/Icons/UWP/Square150x150Logo.scale-150.png.meta
+    - Assets/Common/Icons/UWP/Square150x150Logo.scale-200.png
+    - Assets/Common/Icons/UWP/Square150x150Logo.scale-200.png.meta
+    - Assets/Common/Icons/UWP/Square150x150Logo.scale-400.png
+    - Assets/Common/Icons/UWP/Square150x150Logo.scale-400.png.meta
+    - Assets/Common/Icons/UWP/Square44x44Logo.scale-100.png
+    - Assets/Common/Icons/UWP/Square44x44Logo.scale-100.png.meta
+    - Assets/Common/Icons/UWP/Square44x44Logo.scale-125.png
+    - Assets/Common/Icons/UWP/Square44x44Logo.scale-125.png.meta
+    - Assets/Common/Icons/UWP/Square44x44Logo.scale-150.png
+    - Assets/Common/Icons/UWP/Square44x44Logo.scale-150.png.meta
+    - Assets/Common/Icons/UWP/Square44x44Logo.scale-200.png
+    - Assets/Common/Icons/UWP/Square44x44Logo.scale-200.png.meta
+    - Assets/Common/Icons/UWP/Square44x44Logo.scale-400.png
+    - Assets/Common/Icons/UWP/Square44x44Logo.scale-400.png.meta
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-16.png
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-16.png.meta
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-16_altform-unplated.png
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-16_altform-unplated.png.meta
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-24.png
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-24.png.meta
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-24_altform-unplated.png
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-24_altform-unplated.png.meta
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-256.png
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-256.png.meta
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-256_altform-unplated.png
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-256_altform-unplated.png.meta
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-32.png
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-32.png.meta
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-32_altform-unplated.png
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-32_altform-unplated.png.meta
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-48.png
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-48.png.meta
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-48_altform-unplated.png
+    - Assets/Common/Icons/UWP/Square44x44Logo.targetsize-48_altform-unplated.png.meta
+    - Assets/Common/Icons/UWP/StoreLogo.scale-100.png
+    - Assets/Common/Icons/UWP/StoreLogo.scale-100.png.meta
+    - Assets/Common/Icons/UWP/StoreLogo.scale-125.png
+    - Assets/Common/Icons/UWP/StoreLogo.scale-125.png.meta
+    - Assets/Common/Icons/UWP/StoreLogo.scale-150.png
+    - Assets/Common/Icons/UWP/StoreLogo.scale-150.png.meta
+    - Assets/Common/Icons/UWP/StoreLogo.scale-200.png
+    - Assets/Common/Icons/UWP/StoreLogo.scale-200.png.meta
+    - Assets/Common/Icons/UWP/StoreLogo.scale-400.png
+    - Assets/Common/Icons/UWP/StoreLogo.scale-400.png.meta
+    - Assets/Common/Icons/UWP/Wide310x150Logo.scale-100.png
+    - Assets/Common/Icons/UWP/Wide310x150Logo.scale-100.png.meta
+    - Assets/Common/Icons/UWP/Wide310x150Logo.scale-125.png
+    - Assets/Common/Icons/UWP/Wide310x150Logo.scale-125.png.meta
+    - Assets/Common/Icons/UWP/Wide310x150Logo.scale-150.png
+    - Assets/Common/Icons/UWP/Wide310x150Logo.scale-150.png.meta
+    - Assets/Common/Icons/UWP/Wide310x150Logo.scale-200.png
+    - Assets/Common/Icons/UWP/Wide310x150Logo.scale-200.png.meta
+    - Assets/Common/Icons/UWP/Wide310x150Logo.scale-400.png
+    - Assets/Common/Icons/UWP/Wide310x150Logo.scale-400.png.meta
+    - Assets/Common/Icons/iOS.meta
+    - Assets/Common/Icons/iOS/Icon-100.png
+    - Assets/Common/Icons/iOS/Icon-100.png.meta
+    - Assets/Common/Icons/iOS/Icon-1024.png
+    - Assets/Common/Icons/iOS/Icon-1024.png.meta
+    - Assets/Common/Icons/iOS/Icon-114.png
+    - Assets/Common/Icons/iOS/Icon-114.png.meta
+    - Assets/Common/Icons/iOS/Icon-120.png
+    - Assets/Common/Icons/iOS/Icon-120.png.meta
+    - Assets/Common/Icons/iOS/Icon-128.png
+    - Assets/Common/Icons/iOS/Icon-128.png.meta
+    - Assets/Common/Icons/iOS/Icon-144.png
+    - Assets/Common/Icons/iOS/Icon-144.png.meta
+    - Assets/Common/Icons/iOS/Icon-152.png
+    - Assets/Common/Icons/iOS/Icon-152.png.meta
+    - Assets/Common/Icons/iOS/Icon-16.png
+    - Assets/Common/Icons/iOS/Icon-16.png.meta
+    - Assets/Common/Icons/iOS/Icon-167.png
+    - Assets/Common/Icons/iOS/Icon-167.png.meta
+    - Assets/Common/Icons/iOS/Icon-172.png
+    - Assets/Common/Icons/iOS/Icon-172.png.meta
+    - Assets/Common/Icons/iOS/Icon-180.png
+    - Assets/Common/Icons/iOS/Icon-180.png.meta
+    - Assets/Common/Icons/iOS/Icon-196.png
+    - Assets/Common/Icons/iOS/Icon-196.png.meta
+    - Assets/Common/Icons/iOS/Icon-20.png
+    - Assets/Common/Icons/iOS/Icon-20.png.meta
+    - Assets/Common/Icons/iOS/Icon-256.png
+    - Assets/Common/Icons/iOS/Icon-256.png.meta
+    - Assets/Common/Icons/iOS/Icon-29.png
+    - Assets/Common/Icons/iOS/Icon-29.png.meta
+    - Assets/Common/Icons/iOS/Icon-32.png
+    - Assets/Common/Icons/iOS/Icon-32.png.meta
+    - Assets/Common/Icons/iOS/Icon-40.png
+    - Assets/Common/Icons/iOS/Icon-40.png.meta
+    - Assets/Common/Icons/iOS/Icon-48.png
+    - Assets/Common/Icons/iOS/Icon-48.png.meta
+    - Assets/Common/Icons/iOS/Icon-50.png
+    - Assets/Common/Icons/iOS/Icon-50.png.meta
+    - Assets/Common/Icons/iOS/Icon-512.png
+    - Assets/Common/Icons/iOS/Icon-512.png.meta
+    - Assets/Common/Icons/iOS/Icon-55.png
+    - Assets/Common/Icons/iOS/Icon-55.png.meta
+    - Assets/Common/Icons/iOS/Icon-57.png
+    - Assets/Common/Icons/iOS/Icon-57.png.meta
+    - Assets/Common/Icons/iOS/Icon-58.png
+    - Assets/Common/Icons/iOS/Icon-58.png.meta
+    - Assets/Common/Icons/iOS/Icon-60.png
+    - Assets/Common/Icons/iOS/Icon-60.png.meta
+    - Assets/Common/Icons/iOS/Icon-64.png
+    - Assets/Common/Icons/iOS/Icon-64.png.meta
+    - Assets/Common/Icons/iOS/Icon-72.png
+    - Assets/Common/Icons/iOS/Icon-72.png.meta
+    - Assets/Common/Icons/iOS/Icon-76.png
+    - Assets/Common/Icons/iOS/Icon-76.png.meta
+    - Assets/Common/Icons/iOS/Icon-80.png
+    - Assets/Common/Icons/iOS/Icon-80.png.meta
+    - Assets/Common/Icons/iOS/Icon-87.png
+    - Assets/Common/Icons/iOS/Icon-87.png.meta
+    - Assets/Common/Icons/iOS/Icon-88.png
+    - Assets/Common/Icons/iOS/Icon-88.png.meta
+    - Assets/Common/sample_version
+    - Assets/Common/sample_version.meta
+    - Assets/Editor.meta
+    - Assets/Editor/Migration.meta
+    - Assets/Editor/Migration/AddVuforiaEnginePackage.cs
+    - Assets/Editor/Migration/AddVuforiaEnginePackage.cs.meta
+    - Assets/Editor/Migration/EditorMigrationScripts.asmdef
+    - Assets/Editor/Migration/EditorMigrationScripts.asmdef.meta
+    - Assets/Editor/Vuforia.meta
+    - Assets/Editor/Vuforia/CylinderTargetTextures.meta
+    - Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images.meta
+    - Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/RocketBooster.Body_scaled.jpg
+    - Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/RocketBooster.Body_scaled.jpg.meta
+    - Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/RocketBooster.Top_scaled.jpg
+    - Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/RocketBooster.Top_scaled.jpg.meta
+    - Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/authoringinfo.xml
+    - Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/authoringinfo.xml.meta
+    - Assets/Editor/Vuforia/ForPrint.meta
+    - Assets/Editor/Vuforia/ForPrint/CylinderTarget.meta
+    - Assets/Editor/Vuforia/ForPrint/CylinderTarget/cylinder_booster_USLetter.pdf
+    - Assets/Editor/Vuforia/ForPrint/CylinderTarget/cylinder_booster_USLetter.pdf.meta
+    - Assets/Editor/Vuforia/ForPrint/ImageTargets.meta
+    - Assets/Editor/Vuforia/ForPrint/ImageTargets/target_images_USLetter.pdf
+    - Assets/Editor/Vuforia/ForPrint/ImageTargets/target_images_USLetter.pdf.meta
+    - Assets/Editor/Vuforia/ForPrint/MultiTarget.meta
+    - Assets/Editor/Vuforia/ForPrint/MultiTarget/mars_box_USLetter.pdf
+    - Assets/Editor/Vuforia/ForPrint/MultiTarget/mars_box_USLetter.pdf.meta
+    - Assets/Editor/Vuforia/ForPrint/ObjectTarget.meta
+    - Assets/Editor/Vuforia/ForPrint/ObjectTarget/mars_habitat_USLetter.pdf
+    - Assets/Editor/Vuforia/ForPrint/ObjectTarget/mars_habitat_USLetter.pdf.meta
+    - Assets/Editor/Vuforia/ForPrint/VuMark.meta
+    - Assets/Editor/Vuforia/ForPrint/VuMark/mars_vumarks_USLetter.pdf
+    - Assets/Editor/Vuforia/ForPrint/VuMark/mars_vumarks_USLetter.pdf.meta
+    - Assets/Editor/Vuforia/ImageTargetTextures.meta
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaEmulator.meta
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaEmulator/emulator_ground_plane_scaled.jpg
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaEmulator/emulator_ground_plane_scaled.jpg.meta
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images.meta
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Astronaut_scaled.jpg
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Astronaut_scaled.jpg.meta
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Drone_scaled.jpg
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Drone_scaled.jpg.meta
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Fissure_scaled.jpg
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Fissure_scaled.jpg.meta
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Back_scaled.jpg
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Back_scaled.jpg.meta
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Bottom_scaled.jpg
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Bottom_scaled.jpg.meta
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Front_scaled.jpg
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Front_scaled.jpg.meta
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Left_scaled.jpg
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Left_scaled.jpg.meta
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Right_scaled.jpg
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Right_scaled.jpg.meta
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Top_scaled.jpg
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Top_scaled.jpg.meta
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Oxygen_scaled.jpg
+    - Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Oxygen_scaled.jpg.meta
+    - Assets/Editor/Vuforia/TargetsetData.meta
+    - Assets/Editor/Vuforia/TargetsetData/VuforiaMars_Object.meta
+    - Assets/Editor/Vuforia/TargetsetData/VuforiaMars_Object/80a921afee0341b991f24822f2a1e228_preview.jpg
+    - Assets/Editor/Vuforia/TargetsetData/VuforiaMars_Object/80a921afee0341b991f24822f2a1e228_preview.jpg.meta
+    - Assets/Editor/Vuforia/TargetsetData/VuforiaMars_Object_info.xml
+    - Assets/Editor/Vuforia/TargetsetData/VuforiaMars_Object_info.xml.meta
+    - Assets/Editor/Vuforia/VuforiaMars_ModelTarget.meta
+    - Assets/Editor/Vuforia/VuforiaMars_ModelTarget/91f5220e29224e4fa198e66214e43292.meta
+    - Assets/Editor/Vuforia/VuforiaMars_ModelTarget/91f5220e29224e4fa198e66214e43292/VuforiaMars_ModelTarget_Back_preview.jpg
+    - Assets/Editor/Vuforia/VuforiaMars_ModelTarget/91f5220e29224e4fa198e66214e43292/VuforiaMars_ModelTarget_Back_preview.jpg.meta
+    - Assets/Editor/Vuforia/VuforiaMars_ModelTarget/91f5220e29224e4fa198e66214e43292/VuforiaMars_ModelTarget_Front_preview.jpg
+    - Assets/Editor/Vuforia/VuforiaMars_ModelTarget/91f5220e29224e4fa198e66214e43292/VuforiaMars_ModelTarget_Front_preview.jpg.meta
+    - Assets/Editor/Vuforia/VuforiaMars_ModelTarget/authoringinfo.xml
+    - Assets/Editor/Vuforia/VuforiaMars_ModelTarget/authoringinfo.xml.meta
+    - Assets/Editor/Vuforia/VuforiaMars_VuMark.meta
+    - Assets/Editor/Vuforia/VuforiaMars_VuMark/authoringinfo.xml
+    - Assets/Editor/Vuforia/VuforiaMars_VuMark/authoringinfo.xml.meta
+    - Assets/Editor/Vuforia/VuforiaMars_VuMark/ec2533ebd7d84669b28886a4f32bc7ec_scaled.png
+    - Assets/Editor/Vuforia/VuforiaMars_VuMark/ec2533ebd7d84669b28886a4f32bc7ec_scaled.png.meta
+    - Assets/Editor/Vuforia/Vuforia_Marslander_RZR_Toy360.meta
+    - Assets/Editor/Vuforia/Vuforia_Marslander_RZR_Toy360/531fd89ee0b74baa86c1e50d877121e1.meta
+    - Assets/Editor/Vuforia/Vuforia_Marslander_RZR_Toy360/531fd89ee0b74baa86c1e50d877121e1/bb1cf8f64dc54f759687d193f19ee4af_preview.jpg
+    - Assets/Editor/Vuforia/Vuforia_Marslander_RZR_Toy360/531fd89ee0b74baa86c1e50d877121e1/bb1cf8f64dc54f759687d193f19ee4af_preview.jpg.meta
+    - Assets/Editor/Vuforia/Vuforia_Marslander_RZR_Toy360/authoringinfo.xml
+    - Assets/Editor/Vuforia/Vuforia_Marslander_RZR_Toy360/authoringinfo.xml.meta
+    - Assets/Editor/Vuforia/Vuforia_Marslander_RZR_Toy360/d47e9b97bf9b4ecd8afe939754eec55f.meta
+    - Assets/Editor/Vuforia/Vuforia_Marslander_RZR_Toy360/d47e9b97bf9b4ecd8afe939754eec55f/1b4ab4cb460b4d5da9cb19b15b28a476_preview.jpg
+    - Assets/Editor/Vuforia/Vuforia_Marslander_RZR_Toy360/d47e9b97bf9b4ecd8afe939754eec55f/1b4ab4cb460b4d5da9cb19b15b28a476_preview.jpg.meta
+    - Assets/JSONReader.cs
+    - Assets/JSONReader.cs.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/BotonMenu.prefab
+    - Assets/Prefabs/BotonMenu.prefab.meta
+    - Assets/Prefabs/Data_AR.prefab
+    - Assets/Prefabs/Data_AR.prefab.meta
+    - Assets/Resources.meta
+    - Assets/Resources/JSON.json
+    - Assets/Resources/JSON.json.meta
+    - Assets/Resources/Obras.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Adoraci\xF3n de los Magos.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Adoraci\xF3n de los Magos.jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Alegor\xEDa de la Fortuna y
+      la Virtud.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Alegor\xEDa de la Fortuna y
+      la Virtud.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Apoteosis de Judith.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Apoteosis de Judith.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Armario holand\xE9s.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Armario holand\xE9s.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Aurora y Thyton.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Aurora y Thyton.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Ba\xF1o de Ninfas (Las ninfas
+      de Diana regresando de la pesca).jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Ba\xF1o de Ninfas (Las ninfas
+      de Diana regresando de la pesca).jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Bodas m\xEDsticas de Santa
+      Catalina.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Bodas m\xEDsticas de Santa
+      Catalina.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Charlotte de Hesse-Rheinfels.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Charlotte de Hesse-Rheinfels.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Coronaci\xF3n de la Virgen.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Coronaci\xF3n de la Virgen.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Cristo en la Cruz.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Cristo en la Cruz.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Crucifixi\xF3n de Cristo.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Crucifixi\xF3n de Cristo.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Cupido.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Cupido.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Descanso en la huida a Egipto.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Descanso en la huida a Egipto.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Diana y sus Ninfas de caza.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Diana y sus Ninfas de caza.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Dios Pan.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Dios Pan.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El Rapto de la Sabinas.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El Rapto de la Sabinas.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El buen Samaritano.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El buen Samaritano.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El capit\xE1n a caballo.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El capit\xE1n a caballo.jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El matrimonio m\xEDstico de
+      Santa Catalina.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El matrimonio m\xEDstico de
+      Santa Catalina.jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El nacimiento de la Virgen
+      Mar\xEDa.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El nacimiento de la Virgen
+      Mar\xEDa.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El naufragio.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El naufragio.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El triunfo de Baco.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/El triunfo de Baco.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Ester y Mardoqueo escribiendo
+      la primera carta del Purim (Ester, 9-20-21).jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Ester y Mardoqueo escribiendo
+      la primera carta del Purim (Ester, 9-20-21).jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Ferias italianas.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Ferias italianas.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Fuga in Egitto (La hu\xEDda
+      a Egipto).jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Fuga in Egitto (La hu\xEDda
+      a Egipto).jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Gran Canal y San Simeone Piccolo.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Gran Canal y San Simeone Piccolo.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Guirnalda de flores.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Guirnalda de flores.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Interior de cocina campesina..jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Interior de cocina campesina..jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Isaac bendiciendo a su hijo
+      Jacobo.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Isaac bendiciendo a su hijo
+      Jacobo.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Jes\xFAs Resucitado, San Andr\xE9s
+      y San Longino.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Jes\xFAs Resucitado, San Andr\xE9s
+      y San Longino.jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Jes\xFAs en el Huerto de los
+      Olivos.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Jes\xFAs en el Huerto de los
+      Olivos.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Jeune femme (Lady in blue) (Mujer
+      joven vestida de azul).jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Jeune femme (Lady in blue) (Mujer
+      joven vestida de azul).jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/La Sagrada familia con Santa
+      Isabel y San Juan.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/La Sagrada familia con Santa
+      Isabel y San Juan.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/La educaci\xF3n de la V\xEDrgen.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/La educaci\xF3n de la V\xEDrgen.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/La lucha contra la muerte y
+      el tiempo.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/La lucha contra la muerte y
+      el tiempo.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/La vanidad de la vida.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/La vanidad de la vida.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/La \xFAltima aparici\xF3n de
+      Cristo a sus disc\xEDpulos (San Juan, 21- 1-14).jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/La \xFAltima aparici\xF3n de
+      Cristo a sus disc\xEDpulos (San Juan, 21- 1-14).jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Le Banquet apr\xE9s le Triomphe
+      (Banquete de Escipi\xF3n despu\xE9s del triunfo).jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Le Banquet apr\xE9s le Triomphe
+      (Banquete de Escipi\xF3n despu\xE9s del triunfo).jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Los hebreos recogiendo el man\xE1
+      en el desierto (boceto).jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Los hebreos recogiendo el man\xE1
+      en el desierto (boceto).jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Madame R\xE9camier (seg\xFAn
+      Jacques Louis David).jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Madame R\xE9camier (seg\xFAn
+      Jacques Louis David).jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Martirio de San Pedro.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Martirio de San Pedro.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Mois\xE9s elevando la serpiente
+      de bronce (N\xFAmeros 21-5-9).jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Mois\xE9s elevando la serpiente
+      de bronce (N\xFAmeros 21-5-9).jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/M\xE1ter Dolorosa.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/M\xE1ter Dolorosa.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Naturaleza muerta.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Naturaleza muerta.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Nessus y Dejanira.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Nessus y Dejanira.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Paisaje con borgo.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Paisaje con borgo.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Paisaje con campamento.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Paisaje con campamento.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Paisaje con las ruinas de la
+      Abad\xEDa de Rijnsburg.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Paisaje con las ruinas de la
+      Abad\xEDa de Rijnsburg.jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Paisaje de monta\xF1a.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Paisaje de monta\xF1a.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Paisaje.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Paisaje.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Perro y perdices.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Perro y perdices.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Pescadoras.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Pescadoras.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Playa de Scheveningen.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Playa de Scheveningen.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Portrait d'homme \xE0 la collerette
+      (Retrato de hombre con gola).jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Portrait d'homme \xE0 la collerette
+      (Retrato de hombre con gola).jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Portrait de femme (Retrato de
+      mujer).jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Portrait de femme (Retrato de
+      mujer).jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Portrait d\xB4homme (Retrato
+      de hombre).jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Portrait d\xB4homme (Retrato
+      de hombre).jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Presentaci\xF3n al templo.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Presentaci\xF3n al templo.jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Presentaci\xF3n de Jacob a
+      Isaac.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Presentaci\xF3n de Jacob a
+      Isaac.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Quintus Curtius.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Quintus Curtius.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de Margarita Gonzaga.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de Margarita Gonzaga.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de Marguerite-Elisabeth
+      Forest de Largilli\xE8re y su hijo Nicol\xE1s.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de Marguerite-Elisabeth
+      Forest de Largilli\xE8re y su hijo Nicol\xE1s.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de Mlle. Henault, Comtesse
+      d'Aubeterre.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de Mlle. Henault, Comtesse
+      d'Aubeterre.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de caballero (Moreelse,
+      Paulus).jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de caballero (Moreelse,
+      Paulus).jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de joven con sombrero
+      con plumas.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de joven con sombrero
+      con plumas.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de la Condesa de Goldstein.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de la Condesa de Goldstein.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de la infanta Mar\xEDa
+      Teresa de Espa\xF1a.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de la infanta Mar\xEDa
+      Teresa de Espa\xF1a.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de mujer joven.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de mujer joven.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de un caballero.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de un caballero.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de un magistrado.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato de un magistrado.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato masculino.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Retrato masculino.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Ri\xF1a en una taberna.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Ri\xF1a en una taberna.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Sacrificio de Melquisedec.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Sacrificio de Melquisedec.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/San Agust\xEDn meditando sobre
+      la Trinidad.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/San Agust\xEDn meditando sobre
+      la Trinidad.jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/San Francisco en meditaci\xF3n..jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/San Francisco en meditaci\xF3n..jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/San Francisco en meditaci\xF3n.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/San Francisco en meditaci\xF3n.jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/San Ger\xF3nimo.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/San Ger\xF3nimo.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/San Juan Bautista.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/San Juan Bautista.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Santa Mar\xEDa Magdalena.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Santa Mar\xEDa Magdalena.jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Santa conversaci\xF3n.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Santa conversaci\xF3n.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Santo Toribio Alfonso de Mogrovejo,
+      Arzobispo de Lima.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Santo Toribio Alfonso de Mogrovejo,
+      Arzobispo de Lima.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Santos y Donantes.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Santos y Donantes.jpg.meta
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Secretario.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Secretario.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Tumba aleg\xF3rica de Sir Clowdisly
+      Shovell.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Tumba aleg\xF3rica de Sir Clowdisly
+      Shovell.jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Un matem\xE1tico.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Un matem\xE1tico.jpg.meta"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Virgen con el ni\xF1o y San
+      Juan.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Virgen con el ni\xF1o y San
+      Juan.jpg.meta"
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Zapatero.jpg
+    - Assets/Resources/Obras/ArteSigloXII-SigloSVIII/Zapatero.jpg.meta
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/\xC1ngel de la guarda.jpg"
+    - "Assets/Resources/Obras/ArteSigloXII-SigloSVIII/\xC1ngel de la guarda.jpg.meta"
+    - Assets/Resources/VuforiaConfiguration.asset
+    - Assets/Resources/VuforiaConfiguration.asset.meta
+    - Assets/SamplesResources.meta
+    - Assets/SamplesResources/AugmentationAssets.meta
+    - Assets/SamplesResources/AugmentationAssets/Animation.meta
+    - Assets/SamplesResources/AugmentationAssets/Animation/Astronaut.meta
+    - Assets/SamplesResources/AugmentationAssets/Animation/Astronaut/Astronaut.controller
+    - Assets/SamplesResources/AugmentationAssets/Animation/Astronaut/Astronaut.controller.meta
+    - Assets/SamplesResources/AugmentationAssets/Materials.meta
+    - Assets/SamplesResources/AugmentationAssets/Materials/Astronaut.meta
+    - Assets/SamplesResources/AugmentationAssets/Materials/Astronaut/Astronaut.mat
+    - Assets/SamplesResources/AugmentationAssets/Materials/Astronaut/Astronaut.mat.meta
+    - Assets/SamplesResources/AugmentationAssets/Materials/Astronaut/Drill.mat
+    - Assets/SamplesResources/AugmentationAssets/Materials/Astronaut/Drill.mat.meta
+    - Assets/SamplesResources/AugmentationAssets/Models.meta
+    - Assets/SamplesResources/AugmentationAssets/Models/Astronaut.FBX
+    - Assets/SamplesResources/AugmentationAssets/Models/Astronaut.FBX.meta
+    - Assets/SamplesResources/AugmentationAssets/Textures.meta
+    - Assets/SamplesResources/AugmentationAssets/Textures/Astronaut.meta
+    - Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_AO.png
+    - Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_AO.png.meta
+    - Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_Albedo.png
+    - Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_Albedo.png.meta
+    - Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials.meta
+    - Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_AO.mat
+    - Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_AO.mat.meta
+    - Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_Albedo.mat
+    - Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_Albedo.mat.meta
+    - Assets/SamplesResources/InstantImageTarget.meta
+    - Assets/SamplesResources/InstantImageTarget/Astronaut.jpg
+    - Assets/SamplesResources/InstantImageTarget/Astronaut.jpg.meta
+    - Assets/SamplesResources/Scenes.meta
+    - Assets/SamplesResources/Scenes/0-Main.unity
+    - Assets/SamplesResources/Scenes/0-Main.unity.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Escaner.unity
+    - Assets/Scenes/Escaner.unity.meta
+    - Assets/Scenes/PantallaPrincipal.unity
+    - Assets/Scenes/PantallaPrincipal.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/BotonObraScript.cs
+    - Assets/Scripts/BotonObraScript.cs.meta
+    - Assets/Scripts/CreateAR.cs
+    - Assets/Scripts/CreateAR.cs.meta
+    - Assets/Scripts/Main.cs
+    - Assets/Scripts/Main.cs.meta
+    - Assets/Scripts/PantallaEscanear.cs
+    - Assets/Scripts/PantallaEscanear.cs.meta
+    - Assets/Scripts/PantallaObraScript.cs
+    - Assets/Scripts/PantallaObraScript.cs.meta
+    - Assets/Scripts/PantallaPrincipal.cs
+    - Assets/Scripts/PantallaPrincipal.cs.meta
+    - Assets/Scripts/TrackerObraScript.cs
+    - Assets/Scripts/TrackerObraScript.cs.meta
+    - Assets/Scripts/UserProfile.cs
+    - Assets/Scripts/UserProfile.cs.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Examples & Extras.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue
+      to Purple - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue
+      to Purple - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark
+      to Light Green - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark
+      to Light Green - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light
+      to Dark Green - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light
+      to Dark Green - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow
+      to Orange - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow
+      to Orange - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Drop Shadow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Outline.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Outline.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Sunny Days.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Sunny Days.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Drop Shadow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Outline.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Outline.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Glow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Glow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Logo.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Logo.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic
+      Highway Sign SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic
+      Highway Sign SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Metalic Green.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Metalic Green.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Overlay.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Overlay.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Soft Mask.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Soft Mask.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold
+      SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold
+      SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Surface.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Surface.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite
+      Asset.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite
+      Asset.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Sprites.meta
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png.meta
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      Image 1.png
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      Image 1.png.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      UI Screenshot.png
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      UI Screenshot.png.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/UI.meta
+    - Assets/UI/Fondo.controller
+    - Assets/UI/Fondo.controller.meta
+    - Assets/UI/LogoSinFondo.png
+    - Assets/UI/LogoSinFondo.png.meta
+    - Assets/UI/MoIT Logo.png
+    - Assets/UI/MoIT Logo.png.meta
+    - Assets/UI/MuseoNacionalBellasArtes.jpg
+    - Assets/UI/MuseoNacionalBellasArtes.jpg.meta
+    - Assets/UI/PnelInfoAnim.anim
+    - Assets/UI/PnelInfoAnim.anim.meta
+    - Assets/UI/Raleway-Regular SDF.asset
+    - Assets/UI/Raleway-Regular SDF.asset.meta
+    - Assets/UI/Raleway-Regular.ttf
+    - Assets/UI/Raleway-Regular.ttf.meta
+    - Assets/UI/Raleway-VariableFont_wght SDF.asset
+    - Assets/UI/Raleway-VariableFont_wght SDF.asset.meta
+    - Assets/UI/Raleway-VariableFont_wght.ttf
+    - Assets/UI/Raleway-VariableFont_wght.ttf.meta
+    - Assets/UI/ScanIcono.png
+    - Assets/UI/ScanIcono.png.meta
+    - Assets/UI/Soporte Pop-Up.png
+    - Assets/UI/Soporte Pop-Up.png.meta
+    - Assets/UI/circle-512.png
+    - Assets/UI/circle-512.png.meta
+    - Assets/UI/icons8-back-arrow-100 (1).png
+    - Assets/UI/icons8-back-arrow-100 (1).png.meta
+    - Assets/UI/icons8-clock-100.png
+    - Assets/UI/icons8-clock-100.png.meta
+    - Assets/UI/icons8-compass-100.png
+    - Assets/UI/icons8-compass-100.png.meta
+    - Assets/UI/icons8-place-marker-100.png
+    - Assets/UI/icons8-place-marker-100.png.meta
+    - Assets/UI/icons8-user-96.png
+    - Assets/UI/icons8-user-96.png.meta
+    - Assets/UI/squareRounded.png
+    - Assets/UI/squareRounded.png.meta
+    - Packages/manifest.json
+    - Packages/manifest.json.private.0
+    - Packages/packages-lock.json
+    - Packages/packages-lock.json.private.0
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
